@@ -57,12 +57,15 @@ body{
 			display: none;
 		}
 	}
-
+.menu{
+	padding: 2.2rem 0;
+}
 .educ{
 	font-size: 2.4rem;
 	color: black;
 	text-transform: uppercase;
 	font-weight:bold;
+	text-align: left;
 }
 a:hover{ 
 	text-decoration: none; 
@@ -71,6 +74,79 @@ a:hover{
 .educ img{
 	width: 26px;
 }
-.menu{
-	padding: 2.2rem 0;
+
+.botao-menu{
+	background-color:rgb(45,108,223); 
+	color: white;
+	border:none;
+	padding: .5rem 1rem;
+}
+
+.botao-menu:hover{
+	box-shadow: 0px 15px 19px -9px rgba(0, 0, 0, .7);
+}
+
+.menuprincipal li{
+	display: inline;
+	font-size: 1.4rem;
+}
+
+.menuprincipal a{
+	color: black;
+	padding: 3rem 1.5rem;
+	 font-weight: 300;
+}
+
+.menuprincipal a:hover{
+	text-decoration: none;
+}
+
+.menuprincipal .btn{
+	padding: 0;
+	width: 5.4rem;
+}
+
+.menuprincipal{
+	margin: .7rem 0 0 0;
+}
+
+.dropdown-menu {
+	background-color: rgb(0,0,0); 
+	text-transform: none;
+	min-width: 14rem;
+	margin-top: 2.3rem;
+}
+
+#sub{
+	padding-top:2rem;
+  	padding-bottom:2rem;
+}
+
+#sub li a{
+	color:#999999;
+	line-height: 1.2;
+	font-size: 1.3rem;
+  	letter-spacing: 0; 
+}
+
+#sub li a:hover{
+ 	color: white;
+ 	background-color: rgba(0,0,0,.0); 
+}
+
+.dropdown:hover .dropdown-menu {
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-menu:after{
+     content: "";
+     width: 0;
+     height: 0;
+     position: absolute;
+     border-left: 8px solid transparent;
+     border-right: 8px solid transparent;
+     border-bottom: 8px solid black;
+     top: -8px;
+     left: 20%;
 }
