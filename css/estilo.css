@@ -1,35 +1,76 @@
+html{
+	font-size: 10px;
+}
+
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.7;
 }
 
 .topo{
 	border-bottom: 1px solid rgba(0, 0, 0, .1); 
+	padding: 0;
+	margin-bottom: 0;
 }
 
 .caminho{
-	font-size: 15px;
+	font-size: 1.5rem;
 	color: rgba(0, 0, 0,.6);
 	border-right:1px solid rgba(0, 0, 0, .1);
 	border-left: 1px solid rgba(0, 0, 0, .1);
 	float: left;
 }
+	
 .call{
+	color: rgba(0, 0, 0,.6);
 	border-left: 1px solid rgba(0, 0, 0, .1);
     font-size: 1.3rem; 
     }
+
 #fafa{
-	border-left: 1px solid rgba(0, 0, 0, 0.08);
-    border-right: 1px solid rgba(0, 0, 0, 0.08);
+	border-left: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid rgba(0, 0, 0, .1);
 }
+
 .incone{
 	display: inline-block;
 }
+
 .incone .fa{
-	font-size: 14px;
+	font-size: 1.5rem;
 }
+
+.incone a{
+    padding: .4rem .7rem;
+
+}
+
 #fafa, .call, .caminho{
 	display: inline-block; 
     margin: 0;
-    padding: 5px 12px; 
+    padding: .5rem 1rem; 
 }
 
+	@media screen and (max-width: 500px){
+
+		.caminho{
+			display: none;
+		}
+	}
+
+.educ{
+	font-size: 2.4rem;
+	color: black;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+a:hover{ 
+	text-decoration: none; 
+
+}
+.educ img{
+	width: 26px;
+}
+.menu{
+	padding: 2.2rem 0;
+}
