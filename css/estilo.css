@@ -57,9 +57,11 @@ body{
 			display: none;
 		}
 	}
+
 .menu{
 	padding: 2.2rem 0;
 }
+
 .educ{
 	font-size: 2.4rem;
 	color: black;
@@ -67,10 +69,12 @@ body{
 	font-weight:bold;
 	text-align: left;
 }
+
 a:hover{ 
 	text-decoration: none; 
 
 }
+
 .educ img{
 	width: 26px;
 }
@@ -90,7 +94,7 @@ a:hover{
 	display: inline;
 	font-size: 1.4rem;
 }
-
+	
 .menuprincipal a{
 	color: black;
 	padding: 3rem 1.5rem;
@@ -149,4 +153,59 @@ a:hover{
      border-bottom: 8px solid black;
      top: -8px;
      left: 20%;
+}
+
+#menup2{
+	display: none;
+}
+
+@media screen and (max-width: 760px){
+	#menup{
+		display: none;
+	}
+
+	#menup2{
+		display:block;
+	}
+
+ 	.educ{
+ 		float: left;
+ 	}
+
+ 	#nav{
+ 		padding:2rem 0;
+ 		border: none;
+ 		background: white;
+ 		position: relative;
+ 	}
+
+ 	#bs1{
+ 		font-size: 1.4rem;
+ 		color: white;
+ 		background: rgb(0,0,0);
+ 		width: 80%;
+ 		height: 100%;
+    	position: fixed;
+   		 top: 0;
+   		 left: 20%;
+    	bottom: 0;
+    	right: 0;
+    	text-align: left;
+ 		}
+
+ 		#buttonnav{
+ 			color: white;
+ 			border: none;
+ 			background-color:rgb(0,0,0);  
+ 			text-align: right;
+ 			font-size: 3rem;
+ 		}
+
+ 		#ulnav{
+ 			margin-top: 5rem;
+ 		}
+
+ 		#ulnav li{
+ 			padding: 0;
+ 		}
 }
