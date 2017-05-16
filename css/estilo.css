@@ -225,7 +225,7 @@ a:hover{
 	height: 630px;
 	position: relative;
 }
-.carousel-inner:after{
+/*.carousel-inner:after{
 	position: absolute;
     top: 0;
     bottom: 0;
@@ -235,7 +235,7 @@ a:hover{
     background: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
-
+*/
 #img1 {
     background: url(../img/img_bg_1.jpg)no-repeat;
     background-position: bottom center;
@@ -274,7 +274,7 @@ a:hover{
 	border-radius:5rem;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	 font-weight:bold;
+	font-weight:bold;
 }
 .carousel-inner-text{
 	display: table;
@@ -300,4 +300,73 @@ a:hover{
 #gradiente{
 	padding: 0;
 	margin-top: -10px;
+	margin-bottom: 4.8rem;
+}
+.course{
+	margin-bottom: 5rem;
+}
+.course h2{
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-weight:initial;
+	font-size: 2.4rem;
+	line-height: 1.7;
+	margin-bottom:20px;
+	font-weight: 400; 
+}
+.icone {
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 0, 0,.05);
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.icone i {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #000;
+    transition: 0.3s;
+    }
+.business:hover .icone{
+   background-color: #2e6ddf;
+}
+.business:hover i{
+	color: white;
+}
+.business h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 1.1;
+margin: 0 0 20px 0;
+}
+.business h3 a{
+	color: black;
+
+}
+.business p {
+	font-size: 1.5rem;
+	color: #828282;
+	font-weight: 400;
+	font-family: 'Source Sans Pro',Arial,sans-serif;
+	margin-bottom: 20px;
+	line-height: 1.7;
+}
+.business h3:hover,.business p:hover{
+	text-decoration: underline;
+}
+#titulo-course p{
+	color: #828282;
+	font-weight: 400;
+	line-height: 1.7;
+	font-family: 'Source Sans Pro',Arial,sans-serif;
+}
+#titulo-course{
+	padding: 3.7rem 0;
 }
