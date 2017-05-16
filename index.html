@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Education — Free Website Template, Free HTML5 Template by freehtml5.co</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="stylesheet" type="text/css" href="css\reset.css">
 		<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css\estilo.css">
@@ -11,6 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
+
 	<body>
 		<header id="cabecalho">
 			<div class="topo">
@@ -266,8 +268,42 @@
 				</div>	
 			</div>
 		</section>
-		
-		<script type="text/javascript" src="bootstrap/js/jquery.js.js"></script>
+		<section  class="numeros" style="background-image: url(img/img_bg_4.jpg);background-position: 50% -15px;">
+			<div class="fundo"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 text-center ">
+								<span class="ico-numero"><i class="fa fa-globe"></i></span>
+								<span class="timer-incones" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50">3297</span>
+								<span class="numero-text">Foreign Followers</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center ">
+								<span class="ico-numero"><i class="fa fa-graduation-cap"></i></span>
+								<span class="timer-incones" data-from="0" data-to="3700" data-speed="5000" data-refresh-interval="50">3700</span>
+								<span class="numero-text">Students Enrolled</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center ">
+								<span class="ico-numero"><i class="fa fa-lightbulb-o"></i></span>
+								<span class="timer-incones" data-from="0" data-to="5034" data-speed="5000" data-refresh-interval="50">5034</span>
+								<span class="numero-text">Classes Complete</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center">
+								<span class="ico-numero"><i class="fa fa-user-o"></i></span>
+								<span class="timer-incones" data-from="0" data-to="1080" data-speed="5000" data-refresh-interval="50">1080</span>
+								<span class="numero-text">Certified Teachers</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/jquery.js.js"></script>
+		<script type="text/javascript" src="js/jquery.countTo.js"></script>
+		<script >
+  			$('.timer-incones').countTo();
+		</script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	</body>
 </html>
