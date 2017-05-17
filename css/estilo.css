@@ -189,8 +189,8 @@ a:hover{
  		width: 80%;
  		height: 100%;
     	position: fixed;
-   		 top: 0;
-   		 left: 20%;
+   		top: 0;
+   		left: 20%;
     	bottom: 0;
     	right: 0;
     	text-align: left;
@@ -300,6 +300,10 @@ a:hover{
 	background-color: rgb(91,96,99); 
 	border-color:transparent;
 }
+.carousel-indicators .active{
+	margin-left: 1rem;
+	padding: .5rem;
+}
 
 #gradiente{
 	padding: 0;
@@ -311,7 +315,7 @@ a:hover{
 	margin-bottom: 5rem;
 }
 
-.course h2{
+.titulo-course h2{
 	font-family: 'Roboto Slab', serif;
 	text-transform: uppercase;
 	font-weight:initial;
@@ -375,14 +379,14 @@ a:hover{
 	text-decoration: underline;
 }
 
-#titulo-course p{
+.titulo-course p{
 	color: #828282;
 	font-weight: 400;
 	line-height: 1.7;
 	font-family: 'Source Sans Pro',Arial,sans-serif;
 }
 
-#titulo-course{
+.titulo-course{
 	padding: 3.7rem 0;
 }
 
@@ -430,26 +434,18 @@ a:hover{
     font-family: "Roboto Slab", serif;
 }
 
-.our{
-	padding: 7rem 0;
-    clear: both;
-}
-
-.our h2{
-    font-size: 2.4rem;
-    margin-bottom: 2.0rem;
-    line-height: 1.5;
-    color: #000;
-    text-transform: uppercase;
-    font-family: "Roboto Slab", serif;
-}
-
 
 .ourcourse-img{
 	background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
- 
+}
+.our{
+	padding-bottom:10rem;
+
+}
+.our-titulo{
+	padding: 4.7rem 0;
 }
 
 .imagem-textoour{
@@ -460,7 +456,7 @@ a:hover{
     margin-bottom: 3rem;
 }
 
-.imagem-textoour .businesstexto, .imagem-textoour .ourcourse-img {
+.our .businesstexto, .our .ourcourse-img {
     width: 50%;
     display: inline-block;
    background-color: rgba(0, 0, 0,.01)
@@ -472,9 +468,6 @@ a:hover{
 .our .businesstexto {
  padding:1.7rem;
 
-}
-.our .titulo{
-	padding-bottom: 5rem;
 }
 .btn-our{
 	border: 2px solid rgba(0, 0, 0,.8);
@@ -492,5 +485,78 @@ a:hover{
 	background-color:black;
 	border: 2px solid rgba(0, 0, 0,.8);
 }
-
-
+#testimonials{
+	background-color: #1F5F8B;
+    position: relative;
+    padding: 7em 0;
+}
+#testimonials .fundo,#testimonials .carousel-indicators li{
+	background-color: rgba(31, 95, 139, 0.7);
+}
+#testimonials .carousel-indicators .active{
+	background-color:white;
+	padding: 0;
+}
+#testimonials h2{
+	color:white;
+	margin-bottom: 2rem;
+	font-size: 2.4rem;
+	font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+	line-height: 1.5;
+	text-transform: uppercase;
+	position: relative;
+}
+.titulo-tes{
+	padding: 7px 15px;
+    position: relative;
+}
+.titulo-tes:before{
+	position: absolute;
+    top: 20px;
+    left: -40px;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: white;
+}
+.titulo-tes:after{
+	position: absolute;
+    top: 20px;
+    right: -40px;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: white;
+}
+.texto-mike span{
+	margin-top:.6rem; 
+	font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+}
+.texto-mike span .students{
+	font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+blockquote{
+	border: none;
+    margin: 30px auto;
+    width: 70%;
+    position: relative;
+    padding: 0;
+}
+#testimonials .carousel-inner{
+	margin-top: 2.8rem;
+}
+#testimonials .carousel-inner li{
+	min-height: 362px;
+	height: 362px;
+}
+#carousel-estudantes .carousel-indicators li{
+	padding: 0;
+}
