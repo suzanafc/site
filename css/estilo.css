@@ -239,16 +239,21 @@ a:hover{
 #img1 {
     background: url(../img/img_bg_1.jpg)no-repeat;
     background-position: bottom center;
+    background-size: cover;
 }
 
 #img2{
     background: url(../img/img_bg_2.jpg)no-repeat;
 	background-position: bottom center;
+	background-size: cover;
+    
    }
 
  #img3{
     background: url(../img/img_bg_3.jpg)no-repeat;
-	background-position: bottom center;  
+	background-position: bottom center; 
+	background-size: cover;
+   
 }
 
  .text h1{
@@ -353,11 +358,11 @@ a:hover{
 	margin: 0 0 2rem 0;
 }
 
-.business h3 a{
+.businesstexto h3 a{
 	color: black;
 }
 
-.business p {
+.businesstexto p {
 	font-size: 1.5rem;
 	color: #828282;
 	font-weight: 400;
@@ -424,3 +429,68 @@ a:hover{
     margin-bottom: 2rem;
     font-family: "Roboto Slab", serif;
 }
+
+.our{
+	padding: 7rem 0;
+    clear: both;
+}
+
+.our h2{
+    font-size: 2.4rem;
+    margin-bottom: 2.0rem;
+    line-height: 1.5;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.ourcourse-img{
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+ 
+}
+
+.imagem-textoour{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.imagem-textoour .businesstexto, .imagem-textoour .ourcourse-img {
+    width: 50%;
+    display: inline-block;
+   background-color: rgba(0, 0, 0,.01)
+}
+.ourcourse-img:hover, .ourcourse-img:active {
+  box-shadow: -50px 0px 0px 50px rgba(0,0,0, 0.5) inset;
+
+}
+.our .businesstexto {
+ padding:1.7rem;
+
+}
+.our .titulo{
+	padding-bottom: 5rem;
+}
+.btn-our{
+	border: 2px solid rgba(0, 0, 0,.8);
+    background: transparent;
+    color: rgba(0, 0, 0, .8);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:.1rem;
+    padding: 1.1rem 1.5rem;
+    border-radius: 0;
+    margin-bottom:2.8rem; 
+}
+.btn-our:hover{
+	background-color:black;
+	border: 2px solid rgba(0, 0, 0,.8);
+}
+
+
