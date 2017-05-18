@@ -445,7 +445,7 @@ a:hover{
 	padding-bottom:10rem;
 
 }
-.our-titulo{
+.espacamento{
 	padding: 4.7rem 0;
 }
 
@@ -578,9 +578,7 @@ blockquote{
 	margin-bottom: -5.4rem;
 }
 
-#blog .titulo-course{
-	padding: 4.7rem 0;
-}
+
 
 .blog-fundo{
 	background-color:rgba(0,0,0,.05);
@@ -657,7 +655,7 @@ blockquote{
     font-weight: 700;
     display: inline-block;
     margin-bottom: 2rem;
-   color: #828282;
+   	color: #828282;
 }
 
 #healty h3{
@@ -674,4 +672,74 @@ blockquote{
 	margin-bottom: 3rem;
     width: 100%;
     float: left;
+}
+
+#healty{
+	padding-bottom:10.3rem; 
+}
+
+.principal-plan{
+	background-color:white; 
+	margin-bottom: 15rem;
+    width: 100%;
+}
+
+.plan-list{
+	padding: 2rem 4rem;
+	font-size: 1.6rem;
+    margin: 0;
+    text-align: center;
+    color: #8b909d;
+}
+
+.plan-list ul{
+	padding: 0 0 2rem 0;
+}
+
+.plan-list li{
+	margin-bottom: 10px;
+}
+
+.plan-list .btn-our{
+	width: 24.2rem;
+	height: 6rem;
+}
+
+.pricing-titulo{
+	width: 100%;
+	background-color:rgba(0,0,0,.03); 
+	font-size: 4.5rem;
+	font-weight: 400;
+	margin: .5rem 0 .75rem;
+	overflow: hidden;
+	padding: .1rem 0;
+}
+
+pric-span{
+	display: inline-block;
+    line-height: 1.7;
+   
+}
+
+.pric-span1{
+	font-size: 2rem;
+    vertical-align: super;
+}
+
+.pric-span2{
+	color: #8b909d;
+	line-height: 1.7;
+	font-size: 1.5rem;
+}
+
+.pricing h3{
+	font-size: 1.8rem;
+    margin: 0 0;
+    line-height: 1.1;
+    font-weight:400;
+    font-family: "Roboto Slab", serif;
+}
+
+.pricing{
+	padding: 2rem 4rem;
 }
