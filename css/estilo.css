@@ -612,12 +612,12 @@ blockquote{
     color: #828282;
 }
 
-.blog-texto h3 a{
+.blog-texto h3 a, .blog-texto h3{
 	font-size: 2.4rem;
 	color: #000;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 2rem 0;
 }
 
 .blog-texto p{
@@ -627,4 +627,51 @@ blockquote{
     font-size: 1.5rem;
     line-height: 1.7;
     color: #828282;
+}
+
+.blog-imgfundo{
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 27rem;
+}
+
+.blog-span2, .blog-span2 a{
+	font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 2rem;
+    float: right;
+    line-height: 1.7;
+    color: #828282;
+}
+
+.blog-span1{
+	font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 2rem;
+   color: #828282;
+}
+
+#healty h3{
+	font-size: 2rem;
+    line-height: 1.5;
+}
+
+#healty .blog-texto{
+	padding: 3rem;
+}
+
+.blogtexto-img{
+	background-color:rgba(0,0,0,.05); 
+	margin-bottom: 3rem;
+    width: 100%;
+    float: left;
 }
