@@ -440,6 +440,7 @@ a:hover{
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .our{
 	padding-bottom:10rem;
 
@@ -461,14 +462,17 @@ a:hover{
     display: inline-block;
    background-color: rgba(0, 0, 0,.01)
 }
+
 .ourcourse-img:hover, .ourcourse-img:active {
   box-shadow: -50px 0px 0px 50px rgba(0,0,0, 0.5) inset;
 
 }
+
 .our .businesstexto {
  padding:1.7rem;
 
 }
+
 .btn-our{
 	border: 2px solid rgba(0, 0, 0,.8);
     background: transparent;
@@ -481,22 +485,27 @@ a:hover{
     border-radius: 0;
     margin-bottom:2.8rem; 
 }
+
 .btn-our:hover{
 	background-color:black;
 	border: 2px solid rgba(0, 0, 0,.8);
 }
+
 #testimonials{
 	background-color: #1F5F8B;
     position: relative;
     padding: 7em 0;
 }
+
 #testimonials .fundo,#testimonials .carousel-indicators li{
 	background-color: rgba(31, 95, 139, 0.7);
 }
+
 #testimonials .carousel-indicators .active{
 	background-color:white;
 	padding: 0;
 }
+
 #testimonials h2{
 	color:white;
 	margin-bottom: 2rem;
@@ -508,10 +517,12 @@ a:hover{
 	text-transform: uppercase;
 	position: relative;
 }
+
 .titulo-tes{
 	padding: 7px 15px;
     position: relative;
 }
+
 .titulo-tes:before{
 	position: absolute;
     top: 20px;
@@ -521,6 +532,7 @@ a:hover{
     height: 1px;
     background: white;
 }
+
 .titulo-tes:after{
 	position: absolute;
     top: 20px;
@@ -530,6 +542,7 @@ a:hover{
     height: 1px;
     background: white;
 }
+
 .texto-mike span{
 	margin-top:.6rem; 
 	font-size: 14px;
@@ -538,11 +551,13 @@ a:hover{
     font-weight: 700;
     display: block;
 }
+
 .texto-mike span .students{
 	font-size: 11px;
     font-weight: 300;
     letter-spacing: 3px;
 }
+
 blockquote{
 	border: none;
     margin: 30px auto;
@@ -550,13 +565,66 @@ blockquote{
     position: relative;
     padding: 0;
 }
+
 #testimonials .carousel-inner{
 	margin-top: 2.8rem;
 }
-#testimonials .carousel-inner li{
-	min-height: 362px;
-	height: 362px;
-}
+
 #carousel-estudantes .carousel-indicators li{
 	padding: 0;
+}
+
+#carousel-estudantes .carousel-indicators {
+	margin-bottom: -5.4rem;
+}
+
+#blog .titulo-course{
+	padding: 4.7rem 0;
+}
+
+.blog-fundo{
+	background-color:rgba(0,0,0,.05);
+	border-radius: 50%;
+	width: 10rem;
+    height: 10rem;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
+.blog-texto{
+	position: relative;
+    padding-left: 12rem;
+    width: 100%;
+    float: left;
+    margin-bottom: 3rem;
+}
+
+.blog-fundo span{
+	display: table-cell;
+    vertical-align: middle;
+    height: 10rem;
+    width: 10rem;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #828282;
+}
+
+.blog-texto h3 a{
+	font-size: 2.4rem;
+	color: #000;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.blog-texto p{
+	margin-bottom: 2rem;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #828282;
 }
