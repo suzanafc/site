@@ -189,8 +189,6 @@ a:hover{
  		width: 80%;
  		height: 100%;
     	position: fixed;
-   		top: 0;
-   		left: 20%;
     	bottom: 0;
     	right: 0;
     	text-align: left;
@@ -251,7 +249,6 @@ a:hover{
 
  #img3{
     background: url(../img/img_bg_3.jpg)no-repeat;
-	background-position: bottom center; 
 	background-size: cover;
    
 }
@@ -308,9 +305,7 @@ a:hover{
 #gradiente{
 	padding: 0;
 	margin-top: -10px;
-	margin-bottom: 4.8rem;
 }
-
 .course{
 	margin-bottom: 5rem;
 }
@@ -443,8 +438,8 @@ a:hover{
 
 .our{
 	padding-bottom:10rem;
-
 }
+
 .espacamento{
 	padding: 4.7rem 0;
 }
@@ -742,4 +737,76 @@ pric-span{
 
 .pricing{
 	padding: 2rem 4rem;
+}
+
+#get{
+	position: relative;
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 7rem 0;
+}
+
+#get h2,#get h3{
+	font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.7;
+    color: white;
+    margin: 0 0 2rem 0;
+}
+
+#get h3{
+	font-size: 2.4rem;
+}
+
+.datas{
+	margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.dia-hora{
+	display: inline-block;
+    width: 12rem;
+    height: 12rem;
+    background: rgba(0, 0, 0, .2);
+    margin: 0 .5rem;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.dia,.hora,.minutos, .segundos{
+	font-size: 4rem;
+	display: block;
+    color: white;
+}
+
+.textodata{
+	color: rgba(255, 255, 255,.9);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#get p{
+	color: #fff;
+    margin-bottom: 2rem;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+#get .btn-our{
+	border-color: white;
+	color: white;
+	padding: 1.8rem 3.6rem;
+	font-size: 1.2rem;
+}
+
+#get .btn-our:hover{
+	background-color:#2D6CDF;
+	border-color:#2D6CDF;
 }
