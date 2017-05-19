@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+
 html{
 	font-size: 10px;
 }
@@ -6,6 +6,7 @@ html{
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.7;
+
 }
 
 .topo{
@@ -42,14 +43,19 @@ body{
 }
 
 .incone a{
-    padding: .4rem .7rem;
-
+    padding: .7rem .81rem;
 }
 
-#fafa, .call, .caminho{
+#fafa,.call{
 	display: inline-block; 
     margin: 0;
-    padding: .5rem 1rem; 
+    padding: .5rem 1.2rem;
+		} 
+
+.caminho{
+	display: inline-block; 
+    margin: 0;
+    padding: .5rem .9rem; 
 }
 
 	@media screen and (max-width: 500px){
@@ -60,7 +66,7 @@ body{
 	}
 
 .menu{
-	padding: 2.2rem 0;
+	padding: 2.15rem 0;
 }
 
 .educ{
@@ -69,6 +75,7 @@ body{
 	text-transform: uppercase;
 	font-weight:bold;
 	text-align: left;
+	margin: 0;
 }
 
 a:hover{ 
@@ -77,7 +84,7 @@ a:hover{
 }
 
 .educ img{
-	width: 26px;
+	width: 22px;
 }
 
 .botao-menu{
@@ -112,7 +119,8 @@ a:hover{
 }
 
 .menuprincipal{
-	margin: .7rem 0 0 0;
+	margin: .7rem 0 0 30%;
+
 }
 
 .dropdown-menu {
@@ -124,7 +132,7 @@ a:hover{
 
 #sub{
 	padding-top:2rem;
-  	padding-bottom:2rem;
+  	
 }
 
 #sub li a{
@@ -162,58 +170,55 @@ a:hover{
 
 
 @media screen and (max-width: 760px){
-	#menup{
-		display: none;
-	}
-
-	#menup2{
-		display:block;
-	}
-
- 	.educ{
- 		float: left;
- 	}
-
- 	#nav{
- 		display:block;
- 		padding:2rem 0;
- 		border: none;
- 		background: white;
- 		position: relative;
- 	}
-
- 	#bs1{
- 		font-size: 1.4rem;
- 		color: white;
- 		background: rgb(0,0,0);
- 		width: 80%;
- 		height: 100%;
-    	position: fixed;
-    	bottom: 0;
-    	right: 0;
-    	text-align: left;
- 		}
-
- 		#buttonnav{
- 			color: white;
- 			border: none;
- 			background-color:rgb(0,0,0);  
- 			text-align: right;
- 			font-size: 3rem;
- 		}
-
- 		#ulnav{
- 			margin-top: 5rem;
- 		}
-
- 		#ulnav li{
- 			padding: 0;
- 		}
-
+    html{
+    font-size: 5px;
 }
+   #menup{
+       display: none;
+   }
+
+   .educ{
+       float: left;
+   }
+   #nav{
+        display:block;
+       padding:2rem 0;
+       border: none;
+       background: white;
+       
+   }
+   #bs1{
+       font-size: 1.4rem;
+       color: white;
+       background: rgb(0,0,0);
+       width: 80%;
+       height: 100%;
+       position: fixed;
+       bottom: 0;
+       right: 0;
+       text-align: left;
+       }
+
+       #buttonnav{
+           color: white;
+           border: none;
+           background-color:rgb(0,0,0);  
+          text-align: right;
+           font-size: 3rem;
+       }
+
+    #ulnav{
+        margin-top: 5rem;
+       }
+
+    #ulnav li{
+        padding: 0;
+        }
+ } 
 
 .carousel-inner{
 	color: white;
+	margin-bottom: 0;
 }
 
 .carousel-inner li{
@@ -222,6 +227,9 @@ a:hover{
 	min-height: 630px;
 	height: 630px;
 	position: relative;
+}
+.carousel-indicators {
+    bottom: 4.4rem;
 }
 
 .overlay{
@@ -255,10 +263,10 @@ a:hover{
 
  .text h1{
 	font-family: 'Roboto Slab', serif;
-	font-weight:lighter;
+	font-weight:300;
 	font-size: 4rem;
 	line-height: 1.3;
-	margin-bottom: 2rem;
+	
 }
 
 .brought{
@@ -291,12 +299,22 @@ a:hover{
     min-height: 700px;
 }
 
+#gradiente .botao-menu {
+	padding: 1.8rem 3rem;
+	border-radius: 5rem;
+	outline: none;
+	text-transform: uppercase;
+	line-height: 1.4;
+	letter-spacing: 2px;
+}
+
 .carousel-indicators li{
 	margin-left:1rem;
 	padding: .5rem;
 	background-color: rgb(91,96,99); 
 	border-color:transparent;
 }
+
 .carousel-indicators .active{
 	margin-left: 1rem;
 	padding: .5rem;
@@ -304,10 +322,19 @@ a:hover{
 
 #gradiente{
 	padding: 0;
-	margin-top: -10px;
 }
-.course{
-	margin-bottom: 5rem;
+
+#course{
+	margin-bottom:10.28rem;
+}
+
+#course .espacamento{
+	padding-top: 4.6rem;
+	padding-bottom: 4.8rem;
+}
+
+.course1{
+	margin-bottom: 1.9rem;
 }
 
 .titulo-course h2{
@@ -316,8 +343,8 @@ a:hover{
 	font-weight:initial;
 	font-size: 2.4rem;
 	line-height: 1.7;
-	margin-bottom:2rem;
-	font-weight: 400; 
+	margin-bottom: 1.8rem;
+	 
 }
 
 .icone {
@@ -327,7 +354,6 @@ a:hover{
     display: table;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 3rem;
     border-radius: 50%;
     transition: 0.3s;
 }
@@ -340,6 +366,10 @@ a:hover{
     color: #000;
     transition: 0.3s;
 }
+.business{
+	width: 95%;
+    margin: 0 auto;
+}
 
 .business:hover .icone{
    background-color: #2e6ddf;
@@ -350,23 +380,24 @@ a:hover{
 }
 
 .business h3 {
+	
+	margin: 2.45rem 0 1.8rem 0;
+}
+
+.business h3 a{
+	color: black;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.8rem;
-	font-weight: 400;
 	line-height: 1.1;
-	margin: 0 0 2rem 0;
 }
 
-.businesstexto h3 a{
-	color: black;
-}
 
-.businesstexto p {
+.business p {
 	font-size: 1.5rem;
 	color: #828282;
 	font-weight: 400;
 	font-family: 'Source Sans Pro',Arial,sans-serif;
-	margin-bottom: 2rem;
+	margin-bottom: 2.24rem;
 	line-height: 1.7;
 }
 
@@ -382,20 +413,21 @@ a:hover{
 }
 
 .titulo-course{
-	padding: 3.7rem 0;
+	padding-top: 3.7rem;
+	padding-bottom:3.7rem; 
 }
 
 .ico-numero i{
 	display: table-cell;
     vertical-align: middle;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 4rem;
     color:white;
     transition: 0.3s;
 }
 
 .numeros{
-	padding: 7.3rem 0;
+	padding: 12.2rem 0;
     clear: both;
     background-size: cover;
     background-attachment: fixed;
@@ -418,7 +450,7 @@ a:hover{
     font-family: "Roboto Slab", serif;
     width: 100%;
     font-weight: 400;
-    margin-bottom: .1rem;
+    margin-bottom: .4rem;
     display: block;
 }
 
@@ -437,11 +469,16 @@ a:hover{
 }
 
 .our{
-	padding-bottom:10rem;
+	padding-bottom:10.5rem;
 }
 
 .espacamento{
-	padding: 4.7rem 0;
+	padding-top: 4.4rem;
+	padding-bottom:4.8rem;
+}
+
+.our .titulo-course h2{
+	margin-bottom: 2rem;
 }
 
 .imagem-textoour{
@@ -452,21 +489,24 @@ a:hover{
     margin-bottom: 3rem;
 }
 
-.our .businesstexto, .our .ourcourse-img {
+.our .business, .our .ourcourse-img {
     width: 50%;
     display: inline-block;
    background-color: rgba(0, 0, 0,.01)
 }
 
 .ourcourse-img:hover, .ourcourse-img:active {
-  box-shadow: -50px 0px 0px 50px rgba(0,0,0, 0.5) inset;
+  box-shadow: -50px 0px 0px 50px rgba(0,0,0, .4) inset;
 
 }
 
-.our .businesstexto {
- padding:1.7rem;
-
+.our .business{
+	padding: 2rem 3.5rem 2.9rem 2.7rem;
 }
+
+.our .business h3 {
+	margin-top:0;
+ 	}
 
 .btn-our{
 	border: 2px solid rgba(0, 0, 0,.8);
@@ -478,7 +518,6 @@ a:hover{
     letter-spacing:.1rem;
     padding: 1.1rem 1.5rem;
     border-radius: 0;
-    margin-bottom:2.8rem; 
 }
 
 .btn-our:hover{
@@ -489,7 +528,7 @@ a:hover{
 #testimonials{
 	background-color: #1F5F8B;
     position: relative;
-    padding: 7em 0;
+    padding: 10.4rem 0 7rem 0;
 }
 
 #testimonials .fundo,#testimonials .carousel-indicators li{
@@ -500,7 +539,9 @@ a:hover{
 	background-color:white;
 	padding: 0;
 }
-
+#carousel-estudantes{
+	padding-bottom: 7.6rem;
+}
 #testimonials h2{
 	color:white;
 	margin-bottom: 2rem;
@@ -512,7 +553,10 @@ a:hover{
 	text-transform: uppercase;
 	position: relative;
 }
-
+#testimonials .espacamento {
+    padding-top: 4.6rem;
+    padding-bottom: 4.8rem;
+}
 .titulo-tes{
 	padding: 7px 15px;
     position: relative;
@@ -562,18 +606,12 @@ blockquote{
 }
 
 #testimonials .carousel-inner{
-	margin-top: 2.8rem;
+	margin-top: 4.6rem;
 }
 
 #carousel-estudantes .carousel-indicators li{
 	padding: 0;
 }
-
-#carousel-estudantes .carousel-indicators {
-	margin-bottom: -5.4rem;
-}
-
-
 
 .blog-fundo{
 	background-color:rgba(0,0,0,.05);
@@ -866,3 +904,60 @@ pric-span{
 	margin: 0;
 	padding: 0;
 }
+
+#rodape{
+	background: #efefef;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 9rem 0;
+    position: relative;
+}
+
+#rodape .fundo{
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.footer{
+	padding-bottom: 4rem;
+}
+
+.col-rodape{
+	margin-bottom: 3rem;
+}
+
+.col-rodape h3{
+	margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: white;
+}
+
+#rodape p{
+	margin-bottom: 2rem;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.col-rodape li a{
+	color: rgba(255, 255, 255,.5);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.link-rodape small{
+	display: block;
+}
+
+.link-rodape a{
+	color: rgba(255, 255, 255, .5);
+}
+
