@@ -225,15 +225,16 @@ a:hover{
 	margin-bottom: 0;
 }
 
-.carousel-inner li{
+ .carousel-inner li{
 	width: 100%;
 	display: block;
 	min-height: 630px;
 	height: 630px;
 	position: relative;
 }
+
 .carousel-indicators {
-    bottom: 4.4rem;
+    bottom: 3.5rem;
 }
 
 .overlay{
@@ -262,15 +263,13 @@ a:hover{
  #img3{
     background: url(../img/img_bg_3.jpg)no-repeat;
 	background-size: cover;
-   
 }
 
  .text h1{
 	font-family: 'Roboto Slab', serif;
 	font-weight:300;
 	font-size: 4rem;
-	line-height: 1.3;
-	
+	line-height: 1.3;	
 }
 
 .brought{
@@ -329,12 +328,7 @@ a:hover{
 }
 
 #course{
-	margin-bottom:10.28rem;
-}
-
-#course .espacamento{
-	padding-top: 4.6rem;
-	padding-bottom: 4.8rem;
+	padding-bottom: 10.323rem;
 }
 
 .course1{
@@ -348,7 +342,6 @@ a:hover{
 	font-size: 2.4rem;
 	line-height: 1.7;
 	margin-bottom: 1.8rem;
-	 
 }
 
 .icone {
@@ -370,6 +363,7 @@ a:hover{
     color: #000;
     transition: 0.3s;
 }
+
 .business{
 	width: 95%;
     margin: 0 auto;
@@ -384,7 +378,6 @@ a:hover{
 }
 
 .business h3 {
-	
 	margin: 2.45rem 0 1.8rem 0;
 }
 
@@ -417,8 +410,8 @@ a:hover{
 }
 
 .titulo-course{
-	padding-top: 3.7rem;
 	padding-bottom:3.7rem; 
+
 }
 
 .ico-numero i{
@@ -431,7 +424,7 @@ a:hover{
 }
 
 .numeros{
-	padding: 12.2rem 0;
+	padding: 10.7rem 0 13.74rem 0;
     clear: both;
     background-size: cover;
     background-attachment: fixed;
@@ -477,12 +470,21 @@ a:hover{
 }
 
 .espacamento{
-	padding-top: 4.4rem;
+	padding-top: 8.3rem;
 	padding-bottom:4.8rem;
 }
 
-.our .titulo-course h2{
-	margin-bottom: 2rem;
+ .titulo-course h2:after{
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 50px;
+    height: 1px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0,.08);
 }
 
 .imagem-textoour{
@@ -505,7 +507,7 @@ a:hover{
 }
 
 .our .business{
-	padding: 2rem 3.5rem 2.9rem 2.7rem;
+	padding: 2.1rem 3.5rem 2.662rem 2.5rem;
 }
 
 .our .business h3 {
@@ -520,7 +522,7 @@ a:hover{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing:.1rem;
-    padding: 1.1rem 1.5rem;
+    padding: 1.15rem 1.5rem;
     border-radius: 0;
 }
 
@@ -532,7 +534,8 @@ a:hover{
 #testimonials{
 	background-color: #1F5F8B;
     position: relative;
-    padding: 10.4rem 0 7rem 0;
+    padding:10.5rem 0 9.6rem 0;
+ 
 }
 
 #testimonials .fundo,#testimonials .carousel-indicators li{
@@ -543,9 +546,11 @@ a:hover{
 	background-color:white;
 	padding: 0;
 }
+
 #carousel-estudantes{
-	padding-bottom: 7.6rem;
+    padding-top: 4.4rem;
 }
+
 #testimonials h2{
 	color:white;
 	margin-bottom: 2rem;
@@ -557,10 +562,12 @@ a:hover{
 	text-transform: uppercase;
 	position: relative;
 }
+
 #testimonials .espacamento {
     padding-top: 4.6rem;
     padding-bottom: 4.8rem;
 }
+
 .titulo-tes{
 	padding: 7px 15px;
     position: relative;
@@ -568,7 +575,7 @@ a:hover{
 
 .titulo-tes:before{
 	position: absolute;
-    top: 20px;
+    top: 24px;
     left: -40px;
     content: '';
     width: 40px;
@@ -578,7 +585,7 @@ a:hover{
 
 .titulo-tes:after{
 	position: absolute;
-    top: 20px;
+    top: 24px;
     right: -40px;
     content: '';
     width: 40px;
@@ -587,7 +594,7 @@ a:hover{
 }
 
 .texto-mike span{
-	margin-top:.6rem; 
+	margin-top:1rem; 
 	font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -596,6 +603,7 @@ a:hover{
 }
 
 .texto-mike span .students{
+    margin-top:.2rem;
 	font-size: 11px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -610,11 +618,20 @@ blockquote{
 }
 
 #testimonials .carousel-inner{
-	margin-top: 4.6rem;
+	margin-bottom: 0;
+    min-height: 350px;
+    height:350px;
+}
+#carousel-estudantes .carousel-indicators{
+    bottom:.9rem;
 }
 
 #carousel-estudantes .carousel-indicators li{
 	padding: 0;
+  
+}
+#blog{
+    padding-bottom:4.5rem;
 }
 
 .blog-fundo{
@@ -648,11 +665,12 @@ blockquote{
 }
 
 .blog-texto h3 a, .blog-texto h3{
-	font-size: 2.4rem;
+	font-size: 2rem;
 	color: #000;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     margin: 0 0 2rem 0;
+    line-height: 1.5;
 }
 
 .blog-texto p{
@@ -701,28 +719,39 @@ blockquote{
 }
 
 #healty .blog-texto{
-	padding: 3rem;
+	padding: 3rem 1rem .2rem 3rem;
+}
+
+
+#healty .blog-span2 a{
+    color:rgba(0,0,0,.3);
+}
+#healty .blog-span2 i{
+   padding-left: 1rem; 
+   padding-right: 2rem;
 }
 
 .blogtexto-img{
-	background-color:rgba(0,0,0,.05); 
-	margin-bottom: 3rem;
+	background-color:rgba(0,0,0,.03);                      
+	
     width: 100%;
     float: left;
 }
 
 #healty{
-	padding-bottom:10.3rem; 
+	padding-bottom:13.5rem; 
+}
+#plan{
+    padding-bottom:15rem; 
 }
 
 .principal-plan{
 	background-color:white; 
-	margin-bottom: 15rem;
     width: 100%;
 }
 
 .plan-list{
-	padding: 2rem 4rem;
+	padding: 3rem 4rem;
 	font-size: 1.6rem;
     margin: 0;
     text-align: center;
@@ -747,9 +776,8 @@ blockquote{
 	background-color:rgba(0,0,0,.03); 
 	font-size: 4.5rem;
 	font-weight: 400;
-	margin: .5rem 0 .75rem;
 	overflow: hidden;
-	padding: .1rem 0;
+	padding: .45rem 0;
 }
 
 pric-span{
@@ -778,7 +806,7 @@ pric-span{
 }
 
 .pricing{
-	padding: 2rem 4rem;
+	padding: 3rem 4rem;
 }
 
 #get{
@@ -786,25 +814,27 @@ pric-span{
 	background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 7rem 0;
+    padding: 10.4rem 0 11rem 0;
 }
 
 #get h2,#get h3{
 	font-family: "Roboto Slab", serif;
     font-weight: 400;
     font-size: 3rem;
-    line-height: 1.7;
-    color: white;
+    line-height: 1.1;
     margin: 0 0 2rem 0;
+    color: white;
+   
 }
 
 #get h3{
 	font-size: 2.4rem;
+    
 }
 
-.datas{
-	margin-top: 3rem;
-    margin-bottom: 3rem;
+.get-dt-hr{
+    margin: 4.4rem 0rem 5.1rem 0rem;
+  
 }
 
 .dia-hora{
@@ -820,6 +850,7 @@ pric-span{
 
 .dia,.hora,.minutos, .segundos{
 	font-size: 4rem;
+    padding-top: 1.4rem;
 	display: block;
     color: white;
 }
@@ -891,7 +922,8 @@ pric-span{
 }
 
 .gallery-principal{
-	padding-top: 2.5rem;
+	padding-top: 2rem;
+    width: 100%;
 
 }
 
@@ -915,7 +947,7 @@ pric-span{
     background-position: center center;
     background-repeat: no-repeat;
     color: white;
-    padding: 9rem 0;
+    padding: 10.1rem 0;
     position: relative;
 }
 
@@ -932,7 +964,7 @@ pric-span{
 }
 
 .col-rodape h3{
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.3rem;
     font-weight: bold;
     font-size: 1.2rem;
     letter-spacing: 2px;
