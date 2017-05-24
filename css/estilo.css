@@ -117,7 +117,7 @@ a:hover{
 .menuprincipal a{
 	color: black;
     padding: 3rem 1.5rem;
-	 font-weight: 300;
+	font-weight: 300;
 }
 
 .menuprincipal a:hover{
@@ -186,10 +186,7 @@ a:hover{
 }
 
  .carousel-inner li{
-	width: 100%;
 	display: block;
-	min-height: 630px;
-	height: 630px;
 	position: relative;
 }
 
@@ -223,6 +220,7 @@ a:hover{
 
  #img3{
     background: url(../img/img_bg_3.jpg)no-repeat;
+    background-position: bottom center;
 	background-size: cover;
 }
 
@@ -258,7 +256,9 @@ a:hover{
 }
 
 .text{
-    margin-top: 18.6rem;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 33px;
 }
 
 #gradiente .botao-menu {
@@ -284,6 +284,8 @@ a:hover{
 
 #gradiente{
 	padding: 0;
+    min-height: 630px;
+    height: 630px;
 }
 
 #course{
@@ -460,10 +462,13 @@ a:hover{
    background-color: rgba(0, 0, 0,.01)
 }
 
-.ourcourse-img:hover, .ourcourse-img:active {
-  box-shadow: -50px 0px 0px 50px rgba(0,0,0, .4) inset;
+.ourcourse-img:hover, .g-img:hover{
+  box-shadow: -25px 20px 20px  25px  rgba(0,0,0, .6) inset;
 
 }
+.g-img:hover{ 
+    box-shadow: 5px 5px 15px  20px  rgba(0,0,0, .4) inset;
+ }
 
 .our .business{
 	padding: 2.1rem 3.5rem 2.662rem 2.5rem;
@@ -703,7 +708,7 @@ blockquote{
 }
 
 #plan{
-    padding-bottom:15.2rem; 
+   padding-bottom: 15rem;
 }
 
 .principal-plan{
@@ -712,7 +717,7 @@ blockquote{
 }
 
 .plan-list{
-	padding: 3.05rem 4rem;
+	padding: 3rem 3rem 3.1rem 3rem;
 	font-size: 1.6rem;
     margin: 0;
     text-align: center;
@@ -720,7 +725,7 @@ blockquote{
 }
 
 .plan-list ul{
-	padding: 0 0 2rem 0;
+	padding: 0 0 2.1rem 0;
 }
 
 .plan-list li{
@@ -728,7 +733,7 @@ blockquote{
 }
 
 .plan-list .btn-our{
-   padding: 1.83rem 7.43rem 1.82rem 7.47rem;
+   padding: 1.83rem 7.47rem 1.83rem 7.47rem;
 }
 
 .pricing-titulo{
@@ -753,7 +758,7 @@ pric-span{
 .pric-span2{
 	color: #8b909d;
 	line-height: 1.75;
-	font-size: 1.5rem;
+    font-size: 1.58rem;
 }
 
 .pricing h3{
@@ -1030,12 +1035,6 @@ pric-span{
         padding: 0;
     }
 
-    .text{
-        display: table-cell;
-        vertical-align: middle;
-        min-height: 700px;
-        margin: 0;
-    }
 
     .numeros{
         padding: 5.35rem 0 6.87rem 0;
