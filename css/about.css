@@ -16,7 +16,7 @@ html{
 	margin-top:0;
 }
 
-.titulo-about p, span{
+.titulo-about p, .titulo-about span{
 	font-family: "Source Sans Pro", Arial, sans-serif;
 	font-weight: 400;
 	font-size: 15px;
