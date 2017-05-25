@@ -1,0 +1,68 @@
+
+html{
+	font-size: 10px;
+}
+
+#healty{
+	padding-top: 10.5rem;
+	padding-bottom: 5rem;
+
+}
+
+.blog-imgfundo {
+	height: 30rem;
+	margin-bottom:1.7rem; 
+	position: relative;
+}
+
+.rede{
+	opacity: 0;
+	display: table;
+	width:90%;
+	position: absolute;
+	top:0;
+	left: 1.5rem;
+    height: 30rem;
+    background-color:#f1f1f1;
+}
+
+.rede:hover{
+	opacity: 1;
+}
+
+.redes-sociais {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.redes-sociais .incone a{
+    color: #337ab7;
+}
+
+.blogtexto-img {
+		background-color:white;
+		margin-bottom:4rem; 
+}
+
+#healty .blog-texto{
+	padding: 0;
+	margin-bottom:0; 
+}
+
+.blog-texto h3 a{
+	font-size: 1.8rem;
+	line-height: 1.1;
+}
+
+.blog-texto h3{
+	margin: 0 0 1.6rem 0;
+}
+
+.blog-texto span{
+	line-height: 2rem;
+	letter-spacing: 0;
+	font-weight: 400;
+	text-transform: unset;
+	margin-bottom:.4rem; 
+}
+
