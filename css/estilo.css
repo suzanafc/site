@@ -6,6 +6,7 @@ html{
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.7;
+    overflow-x: hidden;
 
 }
 
@@ -392,7 +393,8 @@ a:hover{
 }
 
 .numeros{
-	padding: 10.7rem 0 13.74rem 0;
+	padding-top:10.7rem;
+    padding-bottom:13.74rem;
     clear: both;
     background-size: cover;
     background-attachment: fixed;
@@ -927,7 +929,7 @@ pric-span{
 }
 
 #rodape .fundo{
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.85);
 }
 
 .footer{

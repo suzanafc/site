@@ -1,0 +1,30 @@
+html{
+	font-size: 10px;
+}
+
+#about-u{
+	padding-top:10.5rem; 
+	padding-bottom: 10.5rem;
+}
+
+.titulo-about h2{
+	font-size: 3rem;
+	font-family: 'Roboto Slab', serif;
+	line-height:1.1; 
+	margin-bottom: 2rem;
+	font-weight: 400;
+	margin-top:0;
+}
+
+.titulo-about p, span{
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #828282;
+	margin-bottom: 2rem;
+}
+
+#ultimo-paragrafo{
+	margin-bottom: 1.8rem; 
+}
