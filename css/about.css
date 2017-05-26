@@ -1,6 +1,3 @@
-html{
-	font-size: 10px;
-}
 
 #about-u{
 	padding-top:10.5rem; 
@@ -27,4 +24,11 @@ html{
 
 #ultimo-paragrafo{
 	margin-bottom: 1.8rem; 
+}
+@media screen and (max-width: 760px){
+	#about-u{
+	padding-top:5rem; 
+	padding-bottom: 5rem;
+}
+
 }
