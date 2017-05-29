@@ -214,20 +214,20 @@ a:hover{
 }
 
 #img1 {
-    background: url(../img/img_bg_1.jpg)no-repeat;
-    background-position: bottom center;
+    background: url(../img/img3.jpg)no-repeat;
+    
     background-size: cover;
 }
 
 #img2{
-    background: url(../img/img_bg_2.jpg)no-repeat;
-	background-position: bottom center;
+    background: url(../img/img2.jpg)no-repeat;
+	
 	background-size: cover;
     
 }
 
  #img3{
-    background: url(../img/img_bg_3.jpg)no-repeat;
+    background: url(../img/img1.jpg)no-repeat;
     background-position: bottom center;
 	background-size: cover;
 }
@@ -431,7 +431,6 @@ a:hover{
 
 .ourcourse-img{
 	background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -1120,5 +1119,7 @@ pric-span{
         line-height: 10px;
         font-size: 1.4rem;
     }
-    
+    .plan-list .btn-our {
+        padding:5% 10%; 
+    }
 }
